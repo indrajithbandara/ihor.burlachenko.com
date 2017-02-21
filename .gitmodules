@@ -1,0 +1,3 @@
+[submodule "themes/ihor"]
+	path = themes/ihor
+	url = https://github.com/ihor/IhorHugo

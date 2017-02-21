@@ -1,0 +1,49 @@
+baseurl = "http://ihor.burlachenko.com/"
+title = "Ihor Burlachenko"
+languageCode = "en-us"
+disqusShortname = "ihorburlachenko"
+MetaDataFormat = "toml"
+theme = "ihor"
+paginate = 10
+
+[author]
+    name = "Ihor Burlachenko"
+
+[permalinks]
+    # Change the permalink format for the 'post' content type.
+    post = "/:title/"
+
+[taxonomies]
+    category = "categories"
+
+[params]
+    # If false display full article contents in blog index.
+    # Otherwise show description and 'read on' link to individual blog post page.
+    # Default (if omitted) is true.
+    truncate = true
+
+    # Default page metadata, used when the specific page doesn't set its own.
+    defaultDescription = "Ihor Burlachenko - Software Engineer"
+    defaultKeywords = "burlachenko, php, symfony, javascript, react, react native, python, wroclaw, remote"
+
+    # Select a syntax highight.
+    highlight = "github"
+
+    # Tagline to display next the author name in the header, keep it short.
+    # You can use markdown here.
+    tagline = ""
+
+    # Metadata used to drive integrations.
+    googleAuthorship = "IhorBurlachenko"
+    googleAnalytics = "UA-78180506-1"
+    gravatarHash = ""
+
+    # Header social links.
+    github = "https://github.com/ihor"
+    bitbucket = ""
+    linkedin = "http://www.linkedin.com/in/burlachenko"
+    googleplus = ""
+    facebook = ""
+    twitter = "https://twitter.com/IhorBurlachenko"
+    youtube = ""
+    email = "ihor+blog@burlachenko.com"
