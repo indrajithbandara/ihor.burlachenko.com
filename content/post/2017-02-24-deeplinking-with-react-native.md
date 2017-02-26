@@ -12,7 +12,7 @@ Deep links allow us to link to specific screens in a mobile application rather t
 
 ### Example application
 
-I prepared a example application which has two screens. On the first one we are offered to enter our name and when we submit it we are taken to the second screen where we can see a greeting message. Our goal will be to allow deep links with parametrized names to the greeting screen. You can check the sources [here](https://github.com/ihor/ReactNativeDeepLinkingExample).
+I prepared a example application which has two screens. On the first one we are offered to enter our name. When we submit it we are taken to the second screen where we can see a greeting message. Our goal will be to allow deep links with parametrized names to the greeting screen. You can check the sources [here](https://github.com/ihor/ReactNativeDeepLinkingExample).
 <p align="center">
     <img src="/img/deeplinking/example-app.gif" alt="Sample Application" title="Example application" height=500/>
 </p>
@@ -116,19 +116,19 @@ On iOS, we'll need to link ```RCTLinking``` library which comes with React Nativ
 
 1. Open project ```*.xcodeproj``` with XCode.
 2. Drag ```RCTLinking.xcodeproj``` from ```node_modules/react-native/Libraries/LinkingIOS``` to the project ```Libraries```
-<p align="center">
+<p align="center" style="padding-top: 10px">
     <img src="/img/deeplinking/ios-step-2.png" alt="Add RCTLinking to the project Libraries" title="Add RCTLinking to the project Libraries"/>
 </p>
 3. Click on your main project file (the one that represents the .xcodeproj) select ```Build Phases``` and drag the static library from the ```RTCLinking``` ```Products``` folder to ```Link Binary With Libraries```
-<p align="center">
+<p align="center" style="padding-top: 10px">
     <img src="/img/deeplinking/ios-step-3.png" alt="Link RCTLinking with binaries" title="Link RCTLinking with binaries"/>
 </p>
 4. Click on your main project file again, select ```Build Settings```, search for ```Header Search Paths``` and put ```$(SRCROOT)/../node_modules/react-native/Libraries``` there
-<p align="center">
+<p align="center" style="padding-top: 10px">
     <img src="/img/deeplinking/ios-step-4.png" alt="Add header search path" title="Add header search path"/>
 </p>
 5. Click on your main project file one more time, select ```Info``` and add a URL type at the bottom. We'll put ```exampleapp``` there.
-<p align="center">
+<p align="center" style="padding-top: 10px">
     <img src="/img/deeplinking/ios-step-5.png" alt="Added URL scheme" title="Added URL scheme"/>
 </p>
 
