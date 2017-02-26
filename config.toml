@@ -29,6 +29,8 @@ paginate = 10
     # Select a syntax highight.
     highlight = "github"
 
+    #customCSS = "/css/custom.css"
+
     # Tagline to display next the author name in the header, keep it short.
     # You can use markdown here.
     tagline = ""
@@ -46,4 +48,4 @@ paginate = 10
     facebook = ""
     twitter = "https://twitter.com/IhorBurlachenko"
     youtube = ""
-    email = "ihor+blog@burlachenko.com"
+    email = "ihor.burlachenko@gmail.com"
