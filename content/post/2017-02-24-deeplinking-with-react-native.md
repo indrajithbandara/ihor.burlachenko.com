@@ -196,6 +196,6 @@ That's pretty much it. As with many other things with React/React Native it was 
 ### Links
 
 - [Example Application sources](https://github.com/ihor/ReactNativeDeepLinkingExample)
-- [React Native Linking docummentation](https://facebook.github.io/react-native/docs/linking.html)
+- [React Native Linking documentation](https://facebook.github.io/react-native/docs/linking.html)
 - [React Native Router Flux navigation library](https://github.com/aksonov/react-native-router-flux)
 - [Crossroads routing library](https://millermedeiros.github.io/crossroads.js/)
