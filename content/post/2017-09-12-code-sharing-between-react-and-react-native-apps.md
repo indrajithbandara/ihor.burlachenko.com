@@ -6,7 +6,7 @@ categories = ["React Native", "Howto"]
 
 Sharing code between the web and native was one of the most interesting React Native questions since its appearance. It wasn't the original goal of the React Native but when all our code base is written in one language it's a natural desire to remove code duplication and reuse as much code as possible.
 
-The approach I'm going to explain is based on the fact that React Native loads a platform specific Javascript modules based on their extensions. In the official documentation it is called [platform-specific extensions](https://facebook.github.io/react-native/docs/platform-specific-code.html#platform-specific-extensions):
+The approach I'm going to explain is based on the fact that React Native loads platform specific Javascript modules based on their extensions. In the official documentation it is called [platform-specific extensions](https://facebook.github.io/react-native/docs/platform-specific-code.html#platform-specific-extensions):
 
 > React Native will detect when a file has a .ios. or .android. extension and load the relevant platform file when required from other components.
 
