@@ -285,7 +285,7 @@ For services, which have different implementations depending on the platform, we
     <img src="/img/code-reuse/crossplatform-modules.png" height=140 alt="Cross platform module directory structure" title="Cross platform module directory structure"/>
 </p>
 
-Some services or components will be present only on particular platforms. In such case, I put them into platform specific subdirectories: ```app\web``` or ```app\native```, where only platform related code resides.
+Some services or components will be present only on particular platforms. In such case, I put them into platform specific subdirectories: ```app/web``` or ```app/native```, where only platform related code resides.
 
 ### Conclusion
 
