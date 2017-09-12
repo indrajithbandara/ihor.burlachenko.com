@@ -1,5 +1,6 @@
 +++
 date = "2017-02-21"
+title = "About"
 description = "Ihor Burlachenko – full stack engineer"
 keywords = ["burlachenko", "php", "symfony", "javascript", "react", "react native", "python", "wroclaw", "remote", "consulting"]
 +++
