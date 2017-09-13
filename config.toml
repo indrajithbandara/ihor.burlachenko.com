@@ -23,7 +23,7 @@ paginate = 10
     truncate = true
 
     # Default page metadata, used when the specific page doesn't set its own.
-    defaultDescription = "Ihor Burlachenko - Software Engineer"
+    defaultDescription = "Ihor Burlachenko - Full stack software engineer"
     defaultKeywords = "burlachenko, php, symfony, javascript, react, react native, python, wroclaw, remote"
 
     # Select a syntax highight.
