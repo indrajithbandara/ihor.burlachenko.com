@@ -40,6 +40,9 @@ paginate = 10
     googleAnalytics = "UA-78180506-1"
     gravatarHash = ""
 
+    # Pinterest
+    pinterestVerify = "9c09e67182b64db79c9c46d2e08a12f3"
+
     # Header social links.
     github = "https://github.com/ihor"
     bitbucket = ""
