@@ -1,7 +1,7 @@
 +++
 date = "2017-02-24"
 title = "Deep Linking with React Native"
-categories = ["React Native", "Howto"]
+categories = ["React Native"]
 +++
 
 Recently I added deep linking integration to one of my projects and I want to share my experience with you. It is a complete guide which covers all the steps and explains how to add deep links both on iOS and Android. In my example, I'll use [React Native Router Flux](https://github.com/aksonov/react-native-router-flux). It is a very nice navigation library and at the moment of writing, I couldn't find anything which I would like more. In case you are using something else, this tutorial still will be useful for you as it doesn't rely on the navigation library but describes how to integrate deep links to your application.

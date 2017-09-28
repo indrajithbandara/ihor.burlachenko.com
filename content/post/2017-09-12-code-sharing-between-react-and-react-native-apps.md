@@ -1,7 +1,7 @@
 +++
 date = "2017-09-10"
 title = "Code sharing between React and React Native applications"
-categories = ["React Native", "Howto"]
+categories = ["React Native"]
 +++
 
 Sharing code between the web and native was one of the most interesting React Native questions since its appearance. It wasn't the original goal of the React Native but when all our code base is written in one language it's a natural desire to remove code duplication and reuse as much code as possible.
